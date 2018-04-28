@@ -77,6 +77,7 @@ To set up lab environments for Ansible training, follow these steps.
       ec2_vpc_subnet_id: subnet-5678bbbb    # EC2 subnet ID in your VPC
       admin_password: changeme123           # Set this to something better if you'd like. Defaults to 'LearnAnsible[two digit month][two digit year]', e.g., LearnAnsible0416
       ## Optional Variables
+      ansible_ssh_private_key_file: /path/to/private_key.pem
       email: no                             # Set this if you wish to disable email
       sendgrid_user: username               # username for the Sendgrid module.  Not required if "email: no" is set
       sendgrid_pass: 'passwordgoeshere'     # sendgrid accound password.  Not required if "email: no" is set
